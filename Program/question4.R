@@ -1,14 +1,17 @@
 
 # Required packages
 #############################
-required_pkgs <- c(
-  "tidyverse", "ggrepel", "ggplot2", "RColorBrewer",
-  "lmtest", "sandwich", "patchwork", "scales", "stringr", "WDI"
-)
-
-to_install <- required_pkgs[!(required_pkgs %in% installed.packages()[, "Package"])]
-if (length(to_install)) install.packages(to_install, dependencies = TRUE)
-lapply(required_pkgs, library, character.only = TRUE)
+library(tidyverse)
+library(ggrepel)
+library(ggplot2)
+library(RColorBrewer)
+library(lmtest)
+library(sandwich)
+library(patchwork)
+library(gganimate)
+library(scales)
+library(stringr)
+library(WDI)
 
 #############################
 # Paths & outputs
