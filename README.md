@@ -24,6 +24,6 @@ The project is organized into the following directories to ensure reproducibilit
 
 ## Environment Setup
 1. Clone this repository to your local machine.
-2. Open the `Social-Inequality.Rproj` file (if available) or set the root directory as your working directory in RStudio.
+2. Open the `Social-Inequality.Rproj` file.
 3. The `.Rprofile` will automatically trigger `renv` to activate.
 4. Run `renv::restore()` in the R console to install all exact package versions used in this project.
