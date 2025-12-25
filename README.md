@@ -22,8 +22,8 @@ The project is organized into the following directories to ensure reproducibilit
 * **`Social Inequality new.pptx`**: The final presentation deck for this project.
 * **`Social Inequality old.pptx`**: The initial presentation deck for this project.
 
-## Getting Started
-1. **Prerequisites**: Ensure you have R installed.
-2. **Installation**: Clone this repository and install required libraries:
-   `pip install -r requirements.txt`
-3. **Execution**: Run the scripts located in the `/Program` folder to reproduce the analysis.
+## Environment Setup
+1. Clone this repository to your local machine.
+2. Open the `Social-Inequality.Rproj` file (if available) or set the root directory as your working directory in RStudio.
+3. The `.Rprofile` will automatically trigger `renv` to activate.
+4. Run `renv::restore()` in the R console to install all exact package versions used in this project.
